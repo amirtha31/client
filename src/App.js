@@ -9,7 +9,7 @@ import Login from './Login';
 import Admin from './Admin';
 import SubscribeSection from './SubscribeSection';
 import { MantineProvider } from '@mantine/core';
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import AppointmentBooking from './AppointmentBooking';
 import ListBooking from './ListBooking';
 import ListSubscribers from './ListSubscribers';
