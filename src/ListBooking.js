@@ -36,7 +36,7 @@ export default function ListBooking() {
 
   function fetchData() {
     axios
-      .get("http://localhost:3001/all-booking")
+      .get("http://3.90.187.181:3001/all-booking")
       .then((data) => seTableData(data.data))
       .catch((err) => console.log(err));
     

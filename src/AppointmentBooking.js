@@ -18,7 +18,7 @@ function AppointmentBooking() {
       return;
     }else{
       
-      axios.post("http://localhost:3001/add-appointment",{
+      axios.post("http://3.90.187.181:3001/add-appointment",{
         name,
         mobileNumber,
         email,

@@ -38,66 +38,7 @@ function App() {
      
       <MantineProvider>
       <BrowserRouter basename={process.env.REACT_URL}>
-         {/* <nav>
-          <ul>
-          <li>
-              <Link to="/">Front Page</Link>
-            </li>
-            <li>
-              <Link to="carousel">Carousel</Link>
-            </li>
-            <li>
-              <Link to="flashcards">Flashcards</Link>
-            </li>
-            <li>
-              <Link to="appointmentBooking">Book Appointment</Link>
-            </li>
-            <li>
-              <Link to="user/create">Create user</Link>
-            </li>
-            <li>
-              <Link to="user/login">User login</Link>
-            </li>
-            <li>
-              <Link to="Footer">Footer</Link>
-            </li>
-            <li>
-              <Link to="Admin">Admin Login</Link>
-            </li>
-            <li>
-              <Link to="ListBooking">List Booking</Link>
-            </li>
-            <li>
-              <Link to="SubscribeSection">Subscribe Section</Link>
-            </li>
-            <li>
-              <Link to="ListSubscribers">List subscribers</Link>
-            </li>
-            <li>
-              <Link to="Sidebar">Sidebar</Link>
-            </li>
-            <li>
-              <Link to="Content">Content</Link>
-            </li>
-            <li>
-              <Link to="admindashboard">AdminDashboard</Link>
-            </li>
-            <li>
-              <Link to="Testimonials">Testimonials</Link>
-            </li>
-            <li>
-              <Link to="Portfolio">Portfolio</Link>
-            </li>
-            <li>
-              <Link to="Contact">Contact</Link>
-            </li>
-            <li>
-              <Link to="Service1">Service 1</Link>
-            </li>
-             
-              
-          </ul>
-        </nav>   */}
+         
         <Routes>
            <Route index element={<Header></Header>}></Route>
          <Route path="carousel" element={<Carousel></Carousel>}></Route>

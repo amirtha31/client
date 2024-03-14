@@ -21,7 +21,7 @@ export default function ListSubscribers() {
 
   function fetchData() {
     axios
-      .get("http://localhost:3001/all-subscribers")
+      .get("http://3.90.187.181:3001/all-subscribers")
       .then((data) => seTableData(data.data))
       .catch((err) => console.log(err));
     

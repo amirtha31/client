@@ -14,7 +14,7 @@ function SubscribeSection() {
       
 
       
-      await axios.post('http://localhost:3001/add-subscriber', { email });
+      await axios.post('http://3.90.187.181:3001/add-subscriber', { email });
 
       
       setSubscribed(true);

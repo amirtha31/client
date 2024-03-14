@@ -18,7 +18,7 @@ export default function Contact(){
     
     const value = form.values
     console.log(value)
-    axios.post("http://localhost:3001/add-contact",{
+    axios.post("http://3.90.187.181:3001/add-contact",{
       value
     }).then((response)=>{
       console.log(response)

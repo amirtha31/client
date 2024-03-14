@@ -23,7 +23,7 @@ export default function CreateUser(){
     
     const value = form.values
     console.log(value)
-    axios.post("http://localhost:3001/add-user",{
+    axios.post("http://3.90.187.181:3001/add-user",{
       value
     }).then((response)=>{
       console.log(response)
