@@ -6,6 +6,7 @@ import { ToastContainer } from 'react-toastify';
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 export default function Admin(){
+  axios.defaults.crossdomain = true;
     const [ { toggle }] = useDisclosure(false);
     const navigate = useNavigate()
    
