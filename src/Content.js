@@ -13,7 +13,7 @@ function Content({ page }) {
       content = <div><h2>List of Subscribers</h2><p>Welcome to see the subscribers</p></div>;
       break;
     default:
-      content = <div><h2>Select the required field</h2></div>;
+      content = <div><h2>Welcome to admin page</h2></div>;
   }
 
   return (

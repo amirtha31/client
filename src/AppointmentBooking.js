@@ -4,6 +4,7 @@ import { Box, Divider, Text,} from '@mantine/core';
 import 'react-datetime/css/react-datetime.css';
 import axios from 'axios';
 import './App.css';
+import { useNavigate } from 'react-router-dom';
 
 function AppointmentBooking() {
   const [name, setName] = useState('');
@@ -11,6 +12,7 @@ function AppointmentBooking() {
   const [email, setEmail] = useState('');
   const [selectedDate, setSelectedDate] = useState(null);
   const [selectedTime, setSelectedTime] = useState(null);
+  const navigate = useNavigate()
 
   const handleBooking = () => {
     if (!name || !mobileNumber || !email || !selectedDate || !selectedTime) {
@@ -28,6 +30,7 @@ function AppointmentBooking() {
         console.log(response)
       });
       alert('Appointment booked successfully');
+      navigate("/")
     }
 
   
