@@ -21,7 +21,7 @@ export default function ListSubscribers() {
 
   function fetchData() {
     axios
-      .get("http://3.90.187.181:3001/all-subscribers")
+      .get("https://backend-1-q1hc.onrender.com/all-subscribers")
       .then((data) => seTableData(data.data))
       .catch((err) => console.log(err));
     

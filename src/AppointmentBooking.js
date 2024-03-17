@@ -18,7 +18,7 @@ function AppointmentBooking() {
       return;
     }else{
       
-      axios.post("http://3.90.187.181:3001/add-appointment",{
+      axios.post("https://backend-1-q1hc.onrender.com/add-appointment",{
         name,
         mobileNumber,
         email,

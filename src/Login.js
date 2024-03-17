@@ -25,7 +25,7 @@ export default function CreateUser(){
   async function handleSubmit() {
     const value = form.values
     console.log(value);
-    axios.post("http://3.90.187.181:3001/login",{
+    axios.post("https://backend-1-q1hc.onrender.com/login",{
       value
     }).then((response)=>{
       console.log("res",response)

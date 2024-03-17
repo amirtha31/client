@@ -14,7 +14,7 @@ function SubscribeSection() {
       
 
       
-      await axios.post('http://3.90.187.181:3001/add-subscriber', { email });
+      await axios.post('https://backend-1-q1hc.onrender.com/add-subscriber', { email });
 
       
       setSubscribed(true);
