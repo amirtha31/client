@@ -2,7 +2,7 @@
   "name": "sigvitastask1",
   "version": "0.1.0",
   "private": true,
-  "homepage":".",
+  "homepage": ".",
   "dependencies": {
     "@mantine/core": "^6.0.21",
     "@mantine/dates": "^6.0.21",
@@ -15,6 +15,7 @@
     "mantine-react-table": "^1.3.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
+    "react-datepicker": "^6.4.0",
     "react-datetime": "^3.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
